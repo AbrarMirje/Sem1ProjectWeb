@@ -87,16 +87,17 @@ body {
 
 .hero-text p {
     font-size: 24px;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
-.hero-text button {
+.hero-text a {
     background-color: #f44336;
     border: none;
     padding: 15px 25px;
     color: white;
     font-size: 18px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .hero-text button:hover {
@@ -126,6 +127,10 @@ body {
 
 .slider-section h2 {
     text-decoration: underline;
+}
+
+.carousel-inner img{
+    height: 400px;
 }
 
 .cards {
@@ -288,4 +293,8 @@ h1 {
     font-weight: 600;
     border-radius: 5px;
     width: 180px;
+}
+
+.order-now {
+    color: red;
 }
