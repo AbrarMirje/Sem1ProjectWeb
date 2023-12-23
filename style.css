@@ -58,6 +58,7 @@ body {
 }
 
 
+
 .hero {
     position: relative;
     height: 500px;
@@ -129,8 +130,8 @@ body {
     text-decoration: underline;
 }
 
-.carousel-inner img{
-    height: 400px;
+.carousel-inner img {
+    height: 350px;
 }
 
 .cards {
@@ -236,7 +237,7 @@ body {
     letter-spacing: 5px;
 }
 
-.food-items{
+.food-items {
     display: grid;
     position: relative;
     grid-template-rows: auto 1fr;
@@ -244,7 +245,7 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-.food-items img{
+.food-items img {
     position: relative;
     width: 100%;
     border-radius: 15px 15px 0 0;
@@ -268,7 +269,7 @@ h1 {
     grid-template-columns: auto auto;
 }
 
-.details-sub>h5{
+.details-sub>h5 {
     font-weight: 600;
     font-size: 18px;
 }
@@ -277,7 +278,7 @@ h1 {
     text-align: right;
 }
 
-.details>p{
+.details>p {
     color: #6f6f6f;
     font-size: 15px;
     line-height: 28px;
@@ -285,7 +286,7 @@ h1 {
     align-self: stretch;
 }
 
-.details>button{
+.details>button {
     background-color: #cb202d;
     border: none;
     color: #fff;
@@ -298,3 +299,12 @@ h1 {
 .order-now {
     color: red;
 }
+
+/* Menu ends */
+
+
+
+/* SignIn Start */
+
+
+/* SignIn Ends */
