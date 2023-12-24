@@ -129,7 +129,7 @@ body {
 }
 
 .carousel-inner img {
-    height: 350px;
+    height: 600px;
 }
 
 .cards {
@@ -196,6 +196,9 @@ body {
 }
 
 @media (max-width: 991px) {
+    .carousel-inner img {
+        height: 300px;
+    }
 
     .navbar-nav a {
         display: flex;
@@ -334,7 +337,7 @@ h1 {
 }
 
 /* Responsive Styles */
-@media (min-width: 768px) {
+@media (min-width: 991px) {
     .about-container {
         display: flex;
         align-items: center;
